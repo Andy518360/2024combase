@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>壶口瀑布 - 景区介绍</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            backgro #B07AD8;
+            position: relative;
+        }
+        .background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(); /* Replace with your background image */
+            background-size: cover;
+            background-position: center;
+            z-index: -1;
+        }
+        .nav-bar {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 200px;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            color: #A52A2A;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        .nav-bar a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-left: 3px solid transparent;
+        }
+        .nav-bar a:hover {
+            border-left: 3px solid #005f73;
+        }
+        .main-content {
+            margin-left: 200px;
+            padding: 20px 40px;
+            background: #E0FFFF;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            min-height: 100vh;
+        }
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+        .section .image-container {
+            flex: 100 100 300px; /* Adjust the size of the image container */
+            margin-right: 20px;
+        }
+        .section .text-container {
+            flex: 1 1 calc(100% - 320px); /* Adjust the size of the text container */
+        }
+        .section img {
+            width: 100%;
+            height: auto;
+        }
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: calc(100% - 200px);
+            left: 200px;
+        }
+        @media (max-width: 768px) {
+            .nav-bar {
+                width: 100%;
+                height: auto;
+            }
+            .main-content {
+                margin-left: 0;
+                padding: 20px;
+            }
+            .section {
+                flex-direction: column;
+            }
+            .section .image-container {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+            .section .text-container {
+                flex-basis: 100%;
+            }
+            .footer {
+                width: 100%;
+                left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="nav-bar">
+        <a href="../index.html">首页</a>
+        <a href="./geography and climate.html">地理与气候</a>
+        <a href="./history and culture.html">历史与文化</a>
+        <a href="./scenic spot introduction.html">景区介绍</a>
+        <a href="./travel guide.html">出行攻略</a>
+        <a href="./pure beauty enjoyment.html">美景纯享</a>
+    </div>
+    <div class="main-content">
+        <!-- Repeat the following section for each of the six scenic spots, alternating the image and text positions -->
+        <div class="section">
+            <div class="image-container">
+                <img src="../image/intro1.jpg" alt="景点1">
+            </div>
+            <div class="text-container">
+                <h2>壶口主瀑布</h2>
+              <p>概况：壶口瀑布是中国第二大瀑布，也是世界上最大的黄色瀑布。黄河水在此处由原本较宽的河道，突然收束狭如壶口，从 20 多米高的陡崖上倾注而泻。瀑布宽达数十米，巨大的水流如万马奔腾，涛声轰鸣，水雾腾空而起，气势磅礴，形成“千里黄河一壶收”的震撼景观。&nbsp; </p>
+                <p>观赏价值：其是壶口瀑布景区最核心、最壮观的景观，是游客前来观赏的重点。不同季节，主瀑布呈现出不同的景致，春季桃花汛期间，冰瀑消融，河水流量增大，主瀑布气势磅礴；夏季水量大且急，瀑布涛声震天；秋季河水较为清澈，与周边景色相互映衬；冬季则可能出现冰瀑奇观。</p>
+            </div>
+        </div>
+        <div class="section">
+          <div class="text-container">
+            <h2>十里龙槽</h2>
+            <p> 形成与位置：壶口至孟门约 5 公里的河道中，黄河水在陡峭的谷底冲刷形成一条狭窄的深槽，形状如龙，故称为“十里龙槽”。它是黄河水流长期冲刷、下切作用形成的地质奇观。&nbsp; </p>
+              <p>特点：深槽宽 30 - 50 米，深 10 - 20 米，黄河水从壶口奔涌下泻后，以每秒数千立方米的巨大流量归于此槽。槽旁原河床底的大部分，在非洪水期成为河岸，这种河岸比较宽、平，全由坚硬的砂岩构成，近水处几乎没有一点砂石，平坦得可以在上面行车。</p>
+          </div>
+            <div class="image-container">
+                <img src="../image/intro2.jpg" alt="景点2">
+            </div>
+      </div>
+        <div class="section">
+            <div class="image-container">
+                <img src="../image/intro3.jpg" alt="景点3">
+            </div>
+          <div class="text-container">
+            <h2>冰峰倒挂</h2>
+            <p> 形成时间与条件：通常在冬季出现。冬季河面冰封，黄河两岸溢流形成的水柱如同大小不一的冰峰倒挂在悬崖上，在低温的作用下，形成了这一独特的冰瀑景观。&nbsp; </p>
+              <p>景观特色：冰峰的形状各异，有的如利剑高悬，有的如冰柱垂挂，在阳光的照射下，彩虹时隐时现，游移其间，七彩云晶莹映衬，景色美不胜收，让人叹为观止。</p>
+          </div>
+        </div>
+        <div class="section">
+          <div class="text-container">
+            <h2>清代长城</h2>
+            <p> 历史背景：清代同治年间，为了防御西捻军向东进攻，曾派遣淮军刘字营沿壶口东岸一线，北起大宁县的平渡关，南至乡宁县的麻之滩修筑起了长达 75 千米的长城、栈道防御工事。&nbsp; </p>
+              <p>意义：这是历史的见证，反映了当时的政治局势和军事防御需求，具有一定的历史研究价值。虽然历经岁月的侵蚀，但部分遗迹仍然保存下来，成为壶口瀑布景区的一处人文景观。</p>
+          </div>
+            <div class="image-container">
+                <img src="../image/p1.jpg" alt="景点4">
+            </div>
+        </div>
+        <div class="section">
+          <div class="image-container">
+                <img src="../image/history bag.jpg" alt="景点5">
+            </div>
+          <div class="text-container">
+            <h2>牛马王庙</h2>
+            <p> 起源与传说：是当地百姓为祭祀牛马王而建的庙宇。在黄河流域，牛马等牲畜对于人们的生产生活至关重要，牛马王被视为保佑牲畜平安、农业丰收的神灵，因此百姓修建此庙以表达对牛马王的崇敬和祈求。&nbsp; </p>
+              <p>文化价值：该庙宇体现了黄河流域的民俗文化，反映了当地人民对牲畜的重视和对丰收的期盼，具有一定的民俗文化研究价值。同时，它也是壶口瀑布景区的一处人文景点，为游客了解当地文化提供了一个窗口。</p>
+          </div>
+        </div>
+        <div class="section">
+          <div class="text-container">
+            <h2>孟门山</h2>
+            <p> 位置与形态：位于壶口瀑布下游约 5 公里处，是两块梭形的巨石，屹立在黄河中央。&nbsp; </p>
+              <p>传说与意义：传说这是大禹治水时所凿，也有人认为是地质变化形成的。孟门山在黄河的衬托下，显得格外壮观，与壶口瀑布相互呼应，是观赏瀑布全景的绝佳位置之一。它作为壶口瀑布景区的一部分，为景区增添了神秘的色彩和独特的景观。</p>
+          </div>
+            <div class="image-container">
+                <img src="../image/intro6.jpg" alt="景点6">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>版权所有 &copy; 计算机科学与技术 CS2402班 罗俊</p>
+    </div>
+</body>
+</html>
