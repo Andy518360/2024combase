@@ -9,7 +9,7 @@
       margin: 0;
       padding: 0;
       font-family: 'Microsoft YaHei', Arial, sans-serif;
-      background: #d0e8f2; /* 稍微深一点的淡蓝色背景 */
+      background: #d0e8f2; 
       color: #333;
       height: 100%;
       overflow: hidden;
@@ -53,7 +53,7 @@
     .image {
       width: 100%;
       height: 100%;
-      object-fit: contain; /* Ensure the image fits within the container without cropping */
+      object-fit: contain; 
     }
 
     .arrow {
@@ -61,7 +61,7 @@
       top: 50%;
       transform: translateY(-50%);
       font-size: 48px;
-      color: #ff6b6b; /* 淡红色按钮 */
+      color: #ff6b6b; 
       cursor: pointer;
       z-index: 2;
     }
@@ -74,7 +74,6 @@
       right: 20px;
     }
 
-    /* 艺术字样式 */
     .title {
       position: fixed;
       top: 50%;
@@ -135,9 +134,6 @@
     <div class="arrow next-arrow" onclick="changeImage(1)">&#8250;</div>
   </div>
   <div class="image-info" id="imageInfo">1/10</div>
-  <div class="footer">
-    &copy; 版权所有  计算机科学与技术 CS2402班 罗俊
-  </div>
 
   <script>
     let imageIndex = 0;
@@ -168,8 +164,6 @@
     function updateImageInfo() {
       document.getElementById("imageInfo").textContent = `${imageIndex + 1}/${images.length}`;
     }
-
-    // Initialize the image info
     updateImageInfo();
   </script>
 </body>
